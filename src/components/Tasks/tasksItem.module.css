@@ -1,0 +1,29 @@
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 30px;
+}
+
+.item span {
+    padding: 0 40px 0 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.item input {
+    width: 30px;
+    height: 30px;
+}
+
+.closeTask {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.closeTask:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,24 @@
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.item img {
+    width: 30px;
+}
+
+.item span {
+    padding: 0 40px 0 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.closeWater {
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.closeWater:hover {
+    transform: scale(1.1);
+}
