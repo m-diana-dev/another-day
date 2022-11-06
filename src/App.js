@@ -14,8 +14,8 @@ const App = (props) => {
         <main>
           <Routes>
             <Route path="/home" element={<Home />} />
-            <Route path="/tasks/*" element={<Tasks tasksData={props.state.tasksPage.tasksData} tasksMenuData={props.state.tasksPage.tasksMenuData} />} />
-            <Route path="/water" element={<Water waterData={props.state.waterPage.waterData} />} />
+            <Route path="/tasks/*" element={<Tasks tasksState={props.state.tasksPage} dispatch={props.dispatch} />} />
+            <Route path="/water" element={<Water waterState={props.state.waterPage} dispatch={props.dispatch} />} />
           </Routes>
         </main>
         <Footer />
